@@ -45,8 +45,24 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <img width="899" alt="Screen Shot 2023-01-06 at 4 33 49 PM" src="https://user-images.githubusercontent.com/117952272/211396018-5ed7511c-e2cf-4b5f-9f06-4e35403dcf03.png">
 <br/><br/>
 
-<b>Now the account is being created we are just waiting for an email confirmation. As soon as we received it, we will be able to access AWS Managment Console and start enjoying our Free Tier Account.<b/> 
+<b>Now the account is being created we are just waiting for an email confirmation. As soon as we received it, we will be able to access AWS Management Console and start enjoying our Free Tier Account.<b/> 
 <br/><br/>
 <img width="1471" alt="Screen Shot 2023-01-06 at 4 35 40 PM" src="https://user-images.githubusercontent.com/117952272/211396984-1c5aebfb-f14e-4f43-84e6-b7b29a4064f1.png">
 <br/><br/>
+
+<b>Now we will set up Multifactor Authentication to secure our AWS account and all our AWS resources. To do that we will go to the Services tab and click Security and find Identity and Access Management then click on Assign MFA.<b/>
+<br/><br/>
+<img width="1488" alt="Screen Shot 2023-01-06 at 4 46 41 PM" src="https://user-images.githubusercontent.com/117952272/211407658-98b79f94-534e-426e-af1a-3d4020dd1fda.png">
+<br/><br/>
+
+<b>Then we will be prompted to specify the multifactor authentication device we want to use. You choose the one that works the best for you.<b/>
+<br/><br/>
+
+<img width="1202" alt="Screen Shot 2023-01-06 at 4 47 20 PM" src="https://user-images.githubusercontent.com/117952272/211408843-454424fa-8ab9-48ae-8065-e24fb75fd9f0.png">
+<br/><br/>
+
+<b>Below we can see that the Multifactor Authentication was successfully assigned.<b/>
+<br/><br/>
+<img width="1491" alt="Screen Shot 2023-01-06 at 4 51 46 PM" src="https://user-images.githubusercontent.com/117952272/211409700-45676417-2cf1-47ee-9863-30429f039557.png">
+
 
