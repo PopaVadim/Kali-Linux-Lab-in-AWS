@@ -45,6 +45,8 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <img width="899" alt="Screen Shot 2023-01-06 at 4 33 49 PM" src="https://user-images.githubusercontent.com/117952272/211396018-5ed7511c-e2cf-4b5f-9f06-4e35403dcf03.png">
 <br/><br/>
 
-<b>
-
+<b>Now the account is being created we are just waiting for an email confirmation. As soon as we received it, we will be able to access AWS Managment Console and start enjoying our Free Tier Account.<b/> 
+<br/><br/>
+<img width="1471" alt="Screen Shot 2023-01-06 at 4 35 40 PM" src="https://user-images.githubusercontent.com/117952272/211396984-1c5aebfb-f14e-4f43-84e6-b7b29a4064f1.png">
+<br/><br/>
 
