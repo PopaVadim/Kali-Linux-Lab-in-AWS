@@ -64,5 +64,27 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <b>Below we can see that the Multifactor Authentication was successfully assigned.<b/>
 <br/><br/>
 <img width="1491" alt="Screen Shot 2023-01-06 at 4 51 46 PM" src="https://user-images.githubusercontent.com/117952272/211409700-45676417-2cf1-47ee-9863-30429f039557.png">
+<br/><br/>
+
+<b>To avoid any potential unwanted charges we will set up a billing alarm that will be triggered if the threshold exceeds 10 US dollars. The Billing Alarm will let us know immediately if this condition is met and send us a notification to the email we choose.<b/> <br/><br/>
+<p align="center">
+<b>See how to set the Billing Alarm in the steps below:<b/>
+
+<img width="1491" alt="Screen Shot 2023-01-06 at 4 53 11 PM" src="https://user-images.githubusercontent.com/117952272/211415598-cc333fdd-d16b-4c0c-8956-ae27da517d50.png">
 
 
+<img width="1488" alt="Screen Shot 2023-01-06 at 4 56 18 PM" src="https://user-images.githubusercontent.com/117952272/211415653-9583e312-351e-4180-b8aa-131dd3bc6e22.png">
+ 
+ 
+<img width="1274" alt="Screen Shot 2023-01-06 at 4 58 41 PM" src="https://user-images.githubusercontent.com/117952272/211415679-26963b94-e680-46f4-82e2-3de1595c0784.png">
+
+
+<img width="1279" alt="Screen Shot 2023-01-06 at 4 59 51 PM" src="https://user-images.githubusercontent.com/117952272/211415708-a014d3be-5984-46ff-873c-d3854b559ee7.png">
+ 
+<img width="1383" alt="Screen Shot 2023-01-06 at 5 00 57 PM" src="https://user-images.githubusercontent.com/117952272/211415763-d4fb7251-acc1-4b89-9e52-f36766db4770.png">
+
+
+<img width="1267" alt="Screen Shot 2023-01-06 at 5 03 46 PM" src="https://user-images.githubusercontent.com/117952272/211415946-d5899289-62cd-4af6-af5a-31ec7208c9dc.png">
+
+
+<img width="1458" alt="Screen Shot 2023-01-06 at 5 05 28 PM" src="https://user-images.githubusercontent.com/117952272/211415958-751f546c-501e-41c7-91cf-03e1e0894797.png">
