@@ -144,8 +144,22 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <b>We will go to the Services tab and click Compute then EC2 then click on Instances. There we should be able to locate our Kali Linux Test VM which is already running.<b/>
 <br/><br/>
 
-<img width="1461" alt="Screen Shot 2023-01-10 at 3 18 47 PM" src="https://user-images.githubusercontent.com/117952272/211671749-4ec8d265-9986-4e2f-b2ec-3286a8420c39.png">
+<img width="1461" alt="Screen Shot 2023-01-10 at 3 18 47 PM" src="https://user-images.githubusercontent.com/117952272/211681866-08b7bb9d-a863-42b7-b132-3a88b432b06e.png">
+
+<br/><br/>
+
+<b>Now it is time to SSH into our Virtual Machine. We will open Terminal and type the following command:<b/><br/>
+<b>First we will type *cd Downloads* to change directory then *ssh -i "Kali Linux.pem" kali@3.83.228.15* to connect to our Virtual Machine in the cloud.<b/> 
+
+<br/> 
+
+https://user-images.githubusercontent.com/117952272/211682947-3f774b82-2e75-4755-8403-d8fa5275f53c.mp4
 
 
-   
+<br/>
+
+<b>In our attempt to connect through SSH to our Kali Linux VM we received a Warning: UNPROTECTED PRIVATE KEY FILE.<b/><br/><br/>
+<b>Since the private key can leak, we received the bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali"*<b/>
+<b>After running the command we were able to connect to our Kali Linux VM.<b/>
+
  
