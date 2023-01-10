@@ -88,3 +88,58 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 
 
 <img width="1458" alt="Screen Shot 2023-01-06 at 5 05 28 PM" src="https://user-images.githubusercontent.com/117952272/211415958-751f546c-501e-41c7-91cf-03e1e0894797.png">
+
+<br/><br/>
+
+
+<b>Now our AWS Free Tier account is created, MFA and the billing alarm is set up so we are ready to launch our Kali Linux Virtual Machine. To do that we will click on Launch a Virtual Machine with EC2. <b/>
+<br/><br/>
+
+
+<img width="1285" alt="Screen Shot 2023-01-10 at 1 49 36 PM" src="https://user-images.githubusercontent.com/117952272/211667561-4a4a0e4c-19a0-49dc-a9ab-bc2bf48e80f8.png">
+
+<br/><br/>
+ 
+<b>We will search for Kali Linux within Amazon Machine Images in order to launch our instance.<b/>
+<br/><br/>
+
+ 
+<img width="1461" alt="Screen Shot 2023-01-10 at 2 51 27 PM" src="https://user-images.githubusercontent.com/117952272/211668284-3b8a5679-f6d7-4884-89bd-759f6a8de738.png">
+<br/>
+
+<img width="1453" alt="Screen Shot 2023-01-10 at 2 53 04 PM" src="https://user-images.githubusercontent.com/117952272/211669201-469be06f-20fd-4deb-9d76-f2f7343919b3.png">
+
+<br/><br/>
+
+
+<b>After we found and selected our Kali Linux, we will choose t2.micro AMI which is Free Tier eligible and is good enough for the purpose of this lab.</b>
+<br/><br/>
+
+<img width="1466" alt="Screen Shot 2023-01-10 at 2 56 28 PM" src="https://user-images.githubusercontent.com/117952272/211669958-3e8a65ca-2a4a-491e-9996-5a22b6554883.png">
+
+<br/><br/>
+
+<b>Next we in order to access our Kali Linux instance we will create an SSH key pair and save it.<b/>
+<br/><br/>
+
+<img width="1476" alt="Screen Shot 2023-01-10 at 2 57 53 PM" src="https://user-images.githubusercontent.com/117952272/211670722-317dc191-01a5-4bdc-8cd6-11335a78805e.png">
+<br/><br/>
+
+<b>We will choose RSA encryption and .pem format and click on Create key pair and save the newly created key.<b/>
+<br/><br/>
+
+<img width="507" alt="Screen Shot 2023-01-10 at 2 59 02 PM" src="https://user-images.githubusercontent.com/117952272/211670916-fbd47771-4ce8-4000-86df-5727bf9b7e59.png">
+<br/>
+<img width="1191" alt="Screen Shot 2023-01-10 at 3 02 01 PM" src="https://user-images.githubusercontent.com/117952272/211671029-2ed4b0b7-96c3-484a-8e86-e0bf30761dce.png">
+
+<br/><br/>
+
+<p align="center">
+<b>Now we are ready to launch our instance.<b/>
+<br/><br/>
+<img width="1430" alt="Screen Shot 2023-01-10 at 3 05 29 PM" src="https://user-images.githubusercontent.com/117952272/211671198-e78f8c42-279c-41c1-a945-5bb900f511ed.png">
+
+
+
+   
+ 
