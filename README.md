@@ -139,6 +139,12 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <br/><br/>
 <img width="1430" alt="Screen Shot 2023-01-10 at 3 05 29 PM" src="https://user-images.githubusercontent.com/117952272/211671198-e78f8c42-279c-41c1-a945-5bb900f511ed.png">
 
+<br/><br/>
+
+<b>We will go to the Services tab and click Compute then EC2 then click on Instances. There we should be able to locate our Kali Linux Test VM which is already running.<b/>
+<br/><br/>
+
+<img width="1461" alt="Screen Shot 2023-01-10 at 3 18 47 PM" src="https://user-images.githubusercontent.com/117952272/211671749-4ec8d265-9986-4e2f-b2ec-3286a8420c39.png">
 
 
    
