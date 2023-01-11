@@ -159,7 +159,7 @@ https://user-images.githubusercontent.com/117952272/211682947-3f774b82-2e75-4755
 <br/>
 
 <b>In our attempt to connect through SSH to our Kali Linux VM we received a Warning: UNPROTECTED PRIVATE KEY FILE.<b/><br/><br/>
-<b>Since the private key can leak, we received the bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali"*<b/>
-<b>After running the command we were able to connect to our Kali Linux VM.<b/>
+<b>Since the private key can leak, we received the bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali".*<b/><br/>
+<b>After running the command we were able to successfully connect to our Kali Linux VM.<b/>
 
  
