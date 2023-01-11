@@ -161,5 +161,21 @@ https://user-images.githubusercontent.com/117952272/211682947-3f774b82-2e75-4755
 <b>In our attempt to connect through SSH to our Kali Linux VM we received a Warning: UNPROTECTED PRIVATE KEY FILE.<b/><br/><br/>
 <b>Since the private key can leak, we received the bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali".*<b/><br/>
 <b>After running the command we were able to successfully connect to our Kali Linux VM.<b/>
+<br/><br/>
+<br/><br/>
+
+<b>Now we will type the command *sudo apt update* and it will update our repositories.<b/><br/>
+
+
+https://user-images.githubusercontent.com/117952272/211929209-de0380bd-cfdd-4700-98d0-004f41aeddc4.mp4
+
+<br/><br/>
+
+<b>Now since our repositories are updated we will install our GUI and tightVNC. In order to do that we will have to run the following command *sudo apt install xfce4 xfce4-goodies tightvncserver*.<b/><br/>
+
+
+https://user-images.githubusercontent.com/117952272/211930054-cc5e4282-f2af-492a-b42f-f01820c1afc3.mp4
+
+<br/><br/>
 
  
