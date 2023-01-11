@@ -188,3 +188,10 @@ https://user-images.githubusercontent.com/117952272/211933100-72c8b554-9af8-453b
 <b>We ran the command *netstat -tulpn* to check if our VNC server is running. We can see below that it does over port 5901.<b/> 
  
 <img width="1286" alt="Screen Shot 2023-01-11 at 4 42 51 PM" src="https://user-images.githubusercontent.com/117952272/211934544-f430ad09-4822-400e-947a-0ce0bf7b5b7d.png">
+
+<br/><br/>
+
+<b>Now we will set up a secure SSH tunner to our Kali Linux Virtual Machine. We will use that tunnel for VNC to access it securely.<b/><br/>
+
+
+
