@@ -178,4 +178,13 @@ https://user-images.githubusercontent.com/117952272/211930054-cc5e4282-f2af-492a
 
 <br/><br/>
 
+<b>it is time to configure freshly installed tightVNC server. We will type the command *tightvncserver -geometry 1024x768* next we will be asked to set a password for our VNC server.<b/><br/>
  
+
+https://user-images.githubusercontent.com/117952272/211933100-72c8b554-9af8-453b-88d6-5499fcb82393.mp4
+
+<br/><br/>
+
+<b>We ran the command *netstat -tulpn* to check if our VNC server is running. We can see below that it does over port 5901.<b/> 
+ 
+<img width="1286" alt="Screen Shot 2023-01-11 at 4 42 51 PM" src="https://user-images.githubusercontent.com/117952272/211934544-f430ad09-4822-400e-947a-0ce0bf7b5b7d.png">
