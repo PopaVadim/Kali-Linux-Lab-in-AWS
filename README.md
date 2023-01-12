@@ -1,3 +1,4 @@
+
 <h1>Kali Linux Lab in AWS</h1>
 
 <h2>Description</h2>
@@ -19,7 +20,7 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <p align="center">
 <b>Below we will show how to create an Amazon Free Tier Account.</b> <br/> <br />
 
-<b>First we will browse to https://aws.amazon.com then at the top right hand corner we will click "Create an AWS Account"</b><br/>
+<b>First we will browse to https://aws.amazon.com then at the top right-hand corner we will click "Create an AWS Account"</b><br/>
 <b></b> <br/>
 <img width="1502" alt="Screen Shot 2023-01-06 at 4 23 12 PM" src="https://user-images.githubusercontent.com/117952272/211168408-402939ba-40e0-43c0-a311-35224b37c57e.png">
 <br/>
@@ -29,17 +30,17 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 <img width="1471" alt="Screen Shot 2023-01-06 at 4 26 10 PM" src="https://user-images.githubusercontent.com/117952272/211392415-86ff62cb-8650-4877-873f-5bdf3f9d978b.png">
 <br/><br/>
 
-<b>After your email was succesfully verified you will be prompted to create the Root User password. When you are done press the Continue.<b/>
+<b>After your email was successfully verified you will be prompted to create the Root User password. When you are done press Continue.<b/>
 <br/>
 
 <img width="1225" alt="Screen Shot 2023-01-06 at 4 27 55 PM" src="https://user-images.githubusercontent.com/117952272/211393493-a64d04dc-1c00-481c-96d9-6d2762b3cc2d.png">
 <br/><br/>
 
-<b>The following step will be filling up the Contact Information and clicking to acknowledging the AWS Customer Agreement and press Continue again.<b/><br/><br/>
+<b>The following step will be filling up the Contact Information and clicking to acknowledge the AWS Customer Agreement and pressing Continue again.<b/><br/><br/>
 <img width="1064" alt="Screen Shot 2023-01-06 at 4 29 32 PM" src="https://user-images.githubusercontent.com/117952272/211395062-83b0e5e1-40ba-4095-9cf0-8ace034d3f23.png">
 <br/><br/>
 
-<b>As a final step we will have to choose a support plan. In our case the Free Basic support covers all our needs for this particular lab. When we are ready we will press Complete sign up to finalize our AWS account set up.<b/>
+<b>As a final step we will have to choose a support plan. In our case, the Free Basic support covers all our needs for this particular lab. When we are ready we will press Complete sign up to finalize our AWS account setup.<b/>
 <br/><br/>
  
 <img width="899" alt="Screen Shot 2023-01-06 at 4 33 49 PM" src="https://user-images.githubusercontent.com/117952272/211396018-5ed7511c-e2cf-4b5f-9f06-4e35403dcf03.png">
@@ -119,7 +120,7 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 
 <br/><br/>
 
-<b>Next we in order to access our Kali Linux instance we will create an SSH key pair and save it.<b/>
+<b>Next in order to access our Kali Linux instance we will create an SSH key pair and save it.<b/>
 <br/><br/>
 
 <img width="1476" alt="Screen Shot 2023-01-10 at 2 57 53 PM" src="https://user-images.githubusercontent.com/117952272/211670722-317dc191-01a5-4bdc-8cd6-11335a78805e.png">
@@ -160,7 +161,7 @@ https://user-images.githubusercontent.com/117952272/211682947-3f774b82-2e75-4755
 <br/>
 
 <b>In our attempt to connect through SSH to our Kali Linux VM we received a Warning: UNPROTECTED PRIVATE KEY FILE.<b/><br/><br/>
-<b>Since the private key can leak, we received the bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali".*<b/><br/>
+<b>Since the private key can leak, we received a bad permission result and we will not be able to SSH into our VM. To fix it we used the command *chmod 0400* and reference they key *"Linux Kali".*<b/><br/>
 <b>After running the command we were able to successfully connect to our Kali Linux VM.<b/>
 <br/><br/>
 <br/><br/>
@@ -172,14 +173,14 @@ https://user-images.githubusercontent.com/117952272/211929209-de0380bd-cfdd-4700
 
 <br/><br/>
 
-<b>Now since our repositories are updated we will install our GUI and tightVNC. In order to do that we will have to run the following command *sudo apt install xfce4 xfce4-goodies tightvncserver*.<b/><br/>
+<b>Now that our repositories are updated we will install our GUI and tightVNC. In order to do that we will have to run the following command *sudo apt install xfce4 xfce4-goodies tightvncserver*.<b/><br/>
 
 
 https://user-images.githubusercontent.com/117952272/211930054-cc5e4282-f2af-492a-b42f-f01820c1afc3.mp4
 
 <br/><br/>
 
-<b>it is time to configure freshly installed tightVNC server. We will type the command *tightvncserver -geometry 1024x768* next we will be asked to set a password for our VNC server.<b/><br/>
+<b>it is time to configure the freshly installed tightVNC server. We will type the command *tightvncserver -geometry 1024x768* next we will be asked to set a password for our VNC server.<b/><br/>
  
 
 https://user-images.githubusercontent.com/117952272/211933100-72c8b554-9af8-453b-88d6-5499fcb82393.mp4
@@ -192,7 +193,7 @@ https://user-images.githubusercontent.com/117952272/211933100-72c8b554-9af8-453b
 
 <br/><br/>
 
-<b>Now we will set up a secure SSH tunner to our Kali Linux Virtual Machine. We will use that tunnel for VNC to access it securely.<b/><br/>
+<b>Now we will set up a secure SSH tunnel to our Kali Linux Virtual Machine. We will use that tunnel for VNC to access it securely.<b/><br/>
 
 
 https://user-images.githubusercontent.com/117952272/211941676-ec99aacf-d586-4163-928e-1ed2d43d9c5e.mp4
@@ -204,8 +205,13 @@ https://user-images.githubusercontent.com/117952272/211941676-ec99aacf-d586-4163
 <img width="1367" alt="Screen Shot 2023-01-11 at 5 45 12 PM" src="https://user-images.githubusercontent.com/117952272/211945234-514802c5-3bd2-4fd5-a32e-5d8ffbf23b01.png">
 
 <br/><br/>
-
- 
-<b>Now we can use VNC Viewer and access the GUI version of our Kali Linux. This is a great way to get AWS and Kali Linux hands-on expirience.</b>
+<p align="center">
+ <b>Now we can use VNC Viewer and access the GUI version of our Kali Linux.</b><br/>
 
 https://user-images.githubusercontent.com/117952272/211945648-4f6fef1e-90d1-4e52-a47b-6326e4bcab94.mp4
+
+<br/>
+
+<b>This project shows that AWS is a great place where you enhance your skills with minimum expenses, and get Linux hands-on experience and not only.<b/>
+
+
