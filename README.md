@@ -153,6 +153,7 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 
 <br/> 
 
+
 https://user-images.githubusercontent.com/117952272/211682947-3f774b82-2e75-4755-8403-d8fa5275f53c.mp4
 
 
@@ -194,4 +195,16 @@ https://user-images.githubusercontent.com/117952272/211933100-72c8b554-9af8-453b
 <b>Now we will set up a secure SSH tunner to our Kali Linux Virtual Machine. We will use that tunnel for VNC to access it securely.<b/><br/>
 
 
+https://user-images.githubusercontent.com/117952272/211941676-ec99aacf-d586-4163-928e-1ed2d43d9c5e.mp4
 
+<br/><br/>
+
+<b>We will have to download and install VNC Viewer.<b/> 
+
+<img width="1367" alt="Screen Shot 2023-01-11 at 5 45 12 PM" src="https://user-images.githubusercontent.com/117952272/211945234-514802c5-3bd2-4fd5-a32e-5d8ffbf23b01.png">
+
+<br/><br/>
+
+ <b>Now we can use VNC Viewer and access the GUI version of our Kali Linux and practice hands on and fully enjoy Kali Linux.</b>
+
+https://user-images.githubusercontent.com/117952272/211945648-4f6fef1e-90d1-4e52-a47b-6326e4bcab94.mp4
