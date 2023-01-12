@@ -205,6 +205,7 @@ https://user-images.githubusercontent.com/117952272/211941676-ec99aacf-d586-4163
 
 <br/><br/>
 
- <b>Now we can use VNC Viewer and access the GUI version of our Kali Linux and practice hands on and fully enjoy Kali Linux.</b>
+ 
+<b>Now we can use VNC Viewer and access the GUI version of our Kali Linux. This is a great way to get AWS and Kali Linux hands-on expirience.</b>
 
 https://user-images.githubusercontent.com/117952272/211945648-4f6fef1e-90d1-4e52-a47b-6326e4bcab94.mp4
