@@ -12,9 +12,11 @@ This project is a walkthrough of how to create a Kali Linux lab in the Cloud usi
 - <b>AWS</b>
 - <b>Kali Linux</b>
 - <b>MacOS</b> 
-- <b>Xfce Desktop Envoirment<b/>
-- <b>TightVNC<b/>
 - <b>Terminal</b> 
+- <b>TightVNC<b/>
+- <b>VNC Viewer<b/>
+
+
 
 <h2 align="center">Project walk-through</h2>
 <p align="center">
